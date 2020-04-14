@@ -1,0 +1,5 @@
+.flex {
+  display: flex;
+  padding: 0.5rem;
+  transition: all 0.3s;
+}
