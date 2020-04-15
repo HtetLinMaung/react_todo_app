@@ -37,7 +37,7 @@ const TodoApp = ({
     fetchTodos();
   }, [fetchTodos]);
 
-  const reload = (callback) => {
+  const reload = (callback = () => {}) => {
     if (hideComplete) {
       fetchTodos("completed=false", callback);
     } else {
